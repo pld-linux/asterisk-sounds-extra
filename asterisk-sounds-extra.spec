@@ -23,24 +23,6 @@ Source7:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-ex
 # Source7-md5:	69fab2dafe53e16a944e093f978fb02b
 Source8:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-en-wav-%{version}.tar.gz
 # Source8-md5:	9a220b2d2f04f750719662d9ffc4034f
-#Source10:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-es-alaw-%{version}.tar.gz
-## Source10-md5:	b0e8b6f39564a0d5f6d65a15994d26e2
-#Source11:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-es-g722-%{version}.tar.gz
-## Source11-md5:	e0d1ddd6704e6f09c02b9ec2b0c4d340
-#Source12:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-es-g729-%{version}.tar.gz
-## Source12-md5:	8c515c13ea40061509a93e2a601e2aeb
-#Source13:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-es-gsm-%{version}.tar.gz
-## Source13-md5:	618fce9e53e3da2e7355a1b6d37df94d
-#Source14:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-es-siren7-%{version}.tar.gz
-## Source14-md5:	4f2d65211bf6c607403348a45511d8d4
-#Source15:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-es-siren14-%{version}.tar.gz
-## Source15-md5:	ffe3bc356ff2b1760c961d5a7d217396
-#Source16:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-es-sln16-%{version}.tar.gz
-## Source16-md5:	337e5fe779a33a47cb4bd7403865d1d0
-#Source17:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-es-ulaw-%{version}.tar.gz
-## Source17-md5:	bb81ed607e78dfbe6e9682287fb564a3
-#Source18:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-es-wav-%{version}.tar.gz
-## Source18-md5:	5973a86090c58cf963c3a59c74eac0e1
 Source20:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-alaw-%{version}.tar.gz
 # Source20-md5:	a382b6a4b264570134551134431e76a7
 Source21:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-g722-%{version}.tar.gz
@@ -165,104 +147,6 @@ Provides:	asterisk-sounds-extra = %{version}-%{release}
 %description en-wav
 Extra English WAV sound files for Asterisk.
 
-%package es
-Summary:	Extra Spanish sound files for Asterisk
-Group:		Applications/Sound
-Requires:	asterisk >= 1.4.0
-
-%description es
-Extra Spanish sound files for Asterisk.
-
-%package es-alaw
-Summary:	Extra Spanish ALAW sound files for Asterisk
-Group:		Applications/Sound
-Requires:	asterisk >= 1.4.0
-Requires:	asterisk-sounds-extra-es = %{version}-%{release}
-Provides:	asterisk-sounds-extra = %{version}-%{release}
-
-%description es-alaw
-Extra Spanish ALAW sound files for Asterisk.
-
-%package es-g722
-Summary:	Extra Spanish G.722 sound files for Asterisk
-Group:		Applications/Sound
-Requires:	asterisk >= 1.4.0
-Requires:	asterisk-sounds-extra-es = %{version}-%{release}
-Provides:	asterisk-sounds-extra = %{version}-%{release}
-
-%description es-g722
-Extra Spanish G.722 sound files for Asterisk.
-
-%package es-g729
-Summary:	Extra Spanish G.729 sound files for Asterisk
-Group:		Applications/Sound
-Requires:	asterisk >= 1.4.0
-Requires:	asterisk-sounds-extra-es = %{version}-%{release}
-Provides:	asterisk-sounds-extra = %{version}-%{release}
-
-%description es-g729
-Extra Spanish G.729 sound files for Asterisk.
-
-%package es-gsm
-Summary:	Extra Spanish GSM sound files for Asterisk
-Group:		Applications/Sound
-Requires:	asterisk >= 1.4.0
-Requires:	asterisk-sounds-extra-es = %{version}-%{release}
-Provides:	asterisk-sounds-extra = %{version}-%{release}
-
-%description es-gsm
-Extra Spanish GSM sound files for Asterisk.
-
-%package es-siren7
-Summary:	Extra Spanish Siren7 sound files for Asterisk
-Group:		Applications/Sound
-Requires:	asterisk >= 1.4.0
-Requires:	asterisk-sounds-extra-es = %{version}-%{release}
-Provides:	asterisk-sounds-extra = %{version}-%{release}
-
-%description es-siren7
-Extra Spanish Siren7 sound files for Asterisk.
-
-%package es-siren14
-Summary:	Extra Spanish Siren14 sound files for Asterisk
-Group:		Applications/Sound
-Requires:	asterisk >= 1.4.0
-Requires:	asterisk-sounds-extra-es = %{version}-%{release}
-Provides:	asterisk-sounds-extra = %{version}-%{release}
-
-%description es-siren14
-Extra Spanish Siren14 sound files for Asterisk.
-
-%package es-sln16
-Summary:	Extra Spanish SLN16 sound files for Asterisk
-Group:		Applications/Sound
-Requires:	asterisk >= 1.4.0
-Requires:	asterisk-sounds-extra-es = %{version}-%{release}
-Provides:	asterisk-sounds-extra = %{version}-%{release}
-
-%description es-sln16
-Extra Spanish SLN16 sound files for Asterisk.
-
-%package es-ulaw
-Summary:	Extra Spanish ULAW sound files for Asterisk
-Group:		Applications/Sound
-Requires:	asterisk >= 1.4.0
-Requires:	asterisk-sounds-extra-es = %{version}-%{release}
-Provides:	asterisk-sounds-extra = %{version}-%{release}
-
-%description es-ulaw
-Extra Spanish ULAW sound files for Asterisk.
-
-%package es-wav
-Summary:	Extra Spanish WAV sound files for Asterisk
-Group:		Applications/Sound
-Requires:	asterisk >= 1.4.0
-Requires:	asterisk-sounds-extra-es = %{version}-%{release}
-Provides:	asterisk-sounds-extra = %{version}-%{release}
-
-%description es-wav
-Extra Spanish WAV sound files for Asterisk.
-
 %package fr
 Summary:	Extra English sound files for Asterisk
 Group:		Applications/Sound
@@ -362,7 +246,7 @@ Provides:	asterisk-sounds-extra = %{version}-%{release}
 Extra French WAV sound files for Asterisk.
 
 %prep
-%setup -q -c -T
+%setup -qcT
 
 if [ -f /proc/$PPID/environ ]; then
 	# import env from parent process
@@ -379,12 +263,6 @@ for file in %{S:0} %{S:1} %{S:2} %{S:3} %{S:4} %{S:5} %{S:6} %{S:7} %{S:8}; do
 	tar --extract --directory . --file $file
 done
 
-#mkdir es
-#for file in %{S:10} %{S:11} %{S:12} %{S:13} %{S:14} %{S:15} %{S:16} %{S:17} %{S:18}; do
-#	tar --list --file $file | grep -E '.(alaw|g722|g729|gsm|siren7|siren14|sln16|ulaw|wav)$' | sed -e 's!^!%{sounds_dir}/es/!' > `basename $file .tar.gz`.list
-#	tar --extract --directory ./es/ --file $file
-#done
-
 mkdir fr
 for file in %{S:20} %{S:21} %{S:22} %{S:23} %{S:24} %{S:25} %{S:26} %{S:27} %{S:28}; do
 	tar --list --file $file | grep -E '.(alaw|g722|g729|gsm|siren7|siren14|sln16|ulaw|wav)$' | sed -e 's!^!%{sounds_dir}/fr/!' > `basename $file .tar.gz`.list
@@ -397,7 +275,7 @@ mv fr/extra-sounds-fr.txt.tmp fr/extra-sounds-fr.txt
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{sounds_dir}/{,es,fr}
+install -d $RPM_BUILD_ROOT%{sounds_dir}/{,fr}
 
 for file in $(cat *.list | sed -e 's!^%{sounds_dir}/!!'); do
 	install -d $RPM_BUILD_ROOT%{sounds_dir}/$(dirname $file)
@@ -411,8 +289,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc extra-sounds-en.txt
 %doc CHANGES-asterisk-extra-en-%{version}
-%dir %{sounds_dir}/ha/
-%dir %{sounds_dir}/wx/
+%dir %{sounds_dir}/ha
+%dir %{sounds_dir}/wx
 
 %files en-alaw -f asterisk-extra-sounds-en-alaw-%{version}.list
 %defattr(644,root,root,755)
@@ -450,53 +328,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc asterisk-extra-sounds-en-wav-%{version}.list
 
-%if 0
-%files es
-%defattr(644,root,root,755)
-%doc es/extra-sounds-es.txt
-%doc es/CHANGES-asterisk-extra-es-%{version}
-%doc es/CREDITS-asterisk-extra-es-%{version}
-%doc es/LICENSE-asterisk-extra-es-%{version}
-%dir %{sounds_dir}/es/ha/
-%dir %{sounds_dir}/es/wx/
-
-%files es-alaw -f asterisk-extra-sounds-es-alaw-%{version}.list
-%defattr(644,root,root,755)
-%doc asterisk-extra-sounds-es-alaw-%{version}.list
-
-%files es-g722 -f asterisk-extra-sounds-es-g722-%{version}.list
-%defattr(644,root,root,755)
-%doc asterisk-extra-sounds-es-g722-%{version}.list
-
-%files es-g729 -f asterisk-extra-sounds-es-g729-%{version}.list
-%defattr(644,root,root,755)
-%doc asterisk-extra-sounds-es-g729-%{version}.list
-
-%files es-gsm -f asterisk-extra-sounds-es-gsm-%{version}.list
-%defattr(644,root,root,755)
-%doc asterisk-extra-sounds-es-gsm-%{version}.list
-
-%files es-siren7 -f asterisk-extra-sounds-es-siren7-%{version}.list
-%defattr(644,root,root,755)
-%doc asterisk-extra-sounds-es-siren7-%{version}.list
-
-%files es-siren14 -f asterisk-extra-sounds-es-siren14-%{version}.list
-%defattr(644,root,root,755)
-%doc asterisk-extra-sounds-es-siren14-%{version}.list
-
-%files es-sln16 -f asterisk-extra-sounds-es-sln16-%{version}.list
-%defattr(644,root,root,755)
-%doc asterisk-extra-sounds-es-sln16-%{version}.list
-
-%files es-ulaw -f asterisk-extra-sounds-es-ulaw-%{version}.list
-%defattr(644,root,root,755)
-%doc asterisk-extra-sounds-es-ulaw-%{version}.list
-
-%files es-wav -f asterisk-extra-sounds-es-wav-%{version}.list
-%defattr(644,root,root,755)
-%doc asterisk-extra-sounds-es-wav-%{version}.list
-%endif
-
 %files fr
 %defattr(644,root,root,755)
 %doc fr/extra-sounds-fr.txt
@@ -504,8 +335,8 @@ rm -rf $RPM_BUILD_ROOT
 %doc fr/CHANGES-asterisk-extra-fr-1.4.txt
 %doc fr/CREDITS-core-extra-fr.txt
 %doc fr/MISSING.txt
-%dir %{sounds_dir}/fr/ha/
-%dir %{sounds_dir}/fr/wx/
+%dir %{sounds_dir}/fr/ha
+%dir %{sounds_dir}/fr/wx
 
 %files fr-alaw -f asterisk-extra-sounds-fr-alaw-%{version}.list
 %defattr(644,root,root,755)

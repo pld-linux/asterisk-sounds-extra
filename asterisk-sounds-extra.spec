@@ -1,46 +1,46 @@
 Summary:	Extra sounds for Asterisk
 Name:		asterisk-sounds-extra
-Version:	1.4.10
+Version:	1.4.11
 Release:	1
 License:	CC-BY-SA
 Group:		Applications/Sound
 URL:		http://www.asterisk.org/
 Source0:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-en-alaw-%{version}.tar.gz
-# Source0-md5:	7c5ad7b9c2655ccd98828243863f180d
+# Source0-md5:	3a0bfe79e9e83d12a4b519dab1dc4c48
 Source1:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-en-g722-%{version}.tar.gz
-# Source1-md5:	1a2f12214dc03e9e1e2b0d44261e308e
+# Source1-md5:	be2bfa1ab8e52ed334798d11549653b1
 Source2:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-en-g729-%{version}.tar.gz
-# Source2-md5:	74b71c02221280724e6116a7e5577501
+# Source2-md5:	ae5e738ab6b2b15834a907cdd982cb77
 Source3:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-en-gsm-%{version}.tar.gz
-# Source3-md5:	4c2af649a7c8df071c0da9629f6b00dc
+# Source3-md5:	5479cb4cb81d678304d96f35e4933a11
 Source4:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-en-siren7-%{version}.tar.gz
-# Source4-md5:	372f0a94f0dbca228340bf7358bdf043
+# Source4-md5:	38326a003d905fea32f4cad3b075ee0d
 Source5:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-en-siren14-%{version}.tar.gz
-# Source5-md5:	9be32e54b3ab15dfc0435f4c691948c0
+# Source5-md5:	cf518c3b4e8293680377a312d365e095
 Source6:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-en-sln16-%{version}.tar.gz
-# Source6-md5:	85adbb9798c85b8dbc445d2aa6030e92
+# Source6-md5:	1ed34b754c9729f45a290441d458eede
 Source7:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-en-ulaw-%{version}.tar.gz
-# Source7-md5:	69fab2dafe53e16a944e093f978fb02b
+# Source7-md5:	556a9b77235194644d6a7f7068d3ddaa
 Source8:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-en-wav-%{version}.tar.gz
-# Source8-md5:	9a220b2d2f04f750719662d9ffc4034f
+# Source8-md5:	1dff0265f8051d4ee44d6772bd93d528
 Source20:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-alaw-%{version}.tar.gz
-# Source20-md5:	a382b6a4b264570134551134431e76a7
+# Source20-md5:	6423eeab5fa32797f318147095bdfbb1
 Source21:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-g722-%{version}.tar.gz
-# Source21-md5:	6f6b2cb44a0624d209d574438adc89f1
+# Source21-md5:	3253a6c1ff07301f63b069aaa911c132
 Source22:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-g729-%{version}.tar.gz
-# Source22-md5:	9d68d59f251bbb0b3fdce21f6a324c77
+# Source22-md5:	a06e5e08335df9d2ec2617095998b638
 Source23:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-gsm-%{version}.tar.gz
-# Source23-md5:	f71dc7e574c640da80c21ed74323e8de
+# Source23-md5:	bd72c1f57f9e1ab64ee109612aa2ae7b
 Source24:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-siren7-%{version}.tar.gz
-# Source24-md5:	49d0f781cecf0ed9fc890b22fdf72a1c
+# Source24-md5:	64b4115558eeb1d0d501f9da96852eff
 Source25:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-siren14-%{version}.tar.gz
-# Source25-md5:	38bad8bea6d915114d4000d3c1bda1db
+# Source25-md5:	4e1daf6f7f1e74447719ef070cdcab39
 Source26:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-sln16-%{version}.tar.gz
-# Source26-md5:	c5948b2cba26191556a705812c2fed79
+# Source26-md5:	76e559d433fba3b0017d4a5635319b86
 Source27:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-ulaw-%{version}.tar.gz
-# Source27-md5:	8cf5b202fa43e75ecd9b248c8e523f96
+# Source27-md5:	7b2050a9e2363104b12f7394ca2db8d1
 Source28:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-wav-%{version}.tar.gz
-# Source28-md5:	9872204d353bf516edbb028929b34d83
+# Source28-md5:	e7836238d8d74dcecf72f384731217f9
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

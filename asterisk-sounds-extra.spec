@@ -41,6 +41,7 @@ Source27:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-e
 # Source27-md5:	7b2050a9e2363104b12f7394ca2db8d1
 Source28:	http://downloads.asterisk.org/pub/telephony/sounds/releases/asterisk-extra-sounds-fr-wav-%{version}.tar.gz
 # Source28-md5:	e7836238d8d74dcecf72f384731217f9
+BuildRequires:	iconv
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
